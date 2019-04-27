@@ -44,5 +44,10 @@ namespace Lazada
         {
             Application.Exit();
         }
+
+        private void BunifuFlatButton2_Click(object sender, EventArgs e)
+        {
+            tabMessages1.BringToFront();
+        }
     }
 }

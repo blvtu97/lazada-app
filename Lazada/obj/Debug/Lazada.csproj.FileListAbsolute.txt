@@ -10,3 +10,5 @@ C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.pdb
 C:\Users\ICAFE8\source\repos\Lazada\Lazada\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.csproj.CopyComplete
 C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.Form1.resources
+C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.btnMailItem.resources
+C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.tabMessages.resources

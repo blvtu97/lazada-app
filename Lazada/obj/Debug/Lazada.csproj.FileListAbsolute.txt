@@ -12,3 +12,7 @@ C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.csproj.CopyComplete
 C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.Form1.resources
 C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.btnMailItem.resources
 C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.tabMessages.resources
+C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.tabProfileInfo.resources
+C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.tabProfile.resources
+C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.csprojAssemblyReference.cache
+C:\Users\ICAFE8\source\repos\Lazada\Lazada\obj\Debug\Lazada.tabPrivacySetting.resources

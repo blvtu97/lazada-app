@@ -77,6 +77,24 @@
     <Compile Include="tabMessage.Designer.cs">
       <DependentUpon>tabMessage.cs</DependentUpon>
     </Compile>
+    <Compile Include="tabPrivacySetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tabPrivacySetting.Designer.cs">
+      <DependentUpon>tabPrivacySetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tabProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tabProfile.Designer.cs">
+      <DependentUpon>tabProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tabProfileInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tabProfileInfo.Designer.cs">
+      <DependentUpon>tabProfileInfo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="btnMailItem.resx">
       <DependentUpon>btnMailItem.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,9 +112,19 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="tabMessage.resx">
       <DependentUpon>tabMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tabPrivacySetting.resx">
+      <DependentUpon>tabPrivacySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tabProfile.resx">
+      <DependentUpon>tabProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tabProfileInfo.resx">
+      <DependentUpon>tabProfileInfo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -110,6 +138,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_review.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_sale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_support.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

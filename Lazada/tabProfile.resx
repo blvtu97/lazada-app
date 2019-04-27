@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="bunifuTransition1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>13, 24</value>
   </metadata>
   <data name="animation1.BlindCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -131,14 +131,14 @@
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAABIQwAASEML
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
   <data name="animation1.MosaicShift" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
-        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAD8L
+        d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
 </value>
   </data>
   <data name="animation1.ScaleCoeff" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -153,42 +153,6 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
         dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJh
         d2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAAAAL
-</value>
-  </data>
-  <data name="btnMailItem2.Body" xml:space="preserve">
-    <value>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</value>
-  </data>
-  <data name="btnMailItem1.Body" xml:space="preserve">
-    <value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        4n82/wAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

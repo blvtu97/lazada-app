@@ -49,5 +49,11 @@ namespace Lazada
         {
             tabMessages1.BringToFront();
         }
+
+
+        private void BunifuFlatButton1_MouseUp(object sender, EventArgs e)
+        {
+            tabProfile1.BringToFront();
+        }
     }
 }

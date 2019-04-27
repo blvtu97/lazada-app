@@ -38,18 +38,21 @@
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.tabProfile1 = new Lazada.tabProfile();
+            this.tabMessages1 = new Lazada.tabMessages();
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.btnClose = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlDrawer = new System.Windows.Forms.Panel();
+            this.bunifuFlatButton6 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton5 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnToggleDrawer = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton3 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton2 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuFlatButton4 = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuTransition1 = new BunifuAnimatorNS.BunifuTransition(this.components);
-            this.tabMessages1 = new Lazada.tabMessages();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pnlHeader.SuspendLayout();
@@ -110,11 +113,11 @@
             this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label2.Location = new System.Drawing.Point(58, 135);
+            this.label2.Location = new System.Drawing.Point(92, 135);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 21);
+            this.label2.Size = new System.Drawing.Size(48, 21);
             this.label2.TabIndex = 1;
-            this.label2.Text = "CREATIVE TIM";
+            this.label2.Text = "USER";
             // 
             // panel2
             // 
@@ -130,6 +133,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(49)))));
+            this.panel4.Controls.Add(this.tabProfile1);
             this.panel4.Controls.Add(this.tabMessages1);
             this.bunifuTransition1.SetDecoration(this.panel4, BunifuAnimatorNS.DecorationType.None);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -137,6 +141,25 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(705, 526);
             this.panel4.TabIndex = 1;
+            // 
+            // tabProfile1
+            // 
+            this.tabProfile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(49)))));
+            this.bunifuTransition1.SetDecoration(this.tabProfile1, BunifuAnimatorNS.DecorationType.None);
+            this.tabProfile1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabProfile1.Location = new System.Drawing.Point(0, 0);
+            this.tabProfile1.Name = "tabProfile1";
+            this.tabProfile1.Size = new System.Drawing.Size(705, 526);
+            this.tabProfile1.TabIndex = 1;
+            // 
+            // tabMessages1
+            // 
+            this.bunifuTransition1.SetDecoration(this.tabMessages1, BunifuAnimatorNS.DecorationType.None);
+            this.tabMessages1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabMessages1.Location = new System.Drawing.Point(0, 0);
+            this.tabMessages1.Name = "tabMessages1";
+            this.tabMessages1.Size = new System.Drawing.Size(705, 526);
+            this.tabMessages1.TabIndex = 0;
             // 
             // pnlHeader
             // 
@@ -200,6 +223,8 @@
             // pnlDrawer
             // 
             this.pnlDrawer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
+            this.pnlDrawer.Controls.Add(this.bunifuFlatButton6);
+            this.pnlDrawer.Controls.Add(this.bunifuFlatButton5);
             this.pnlDrawer.Controls.Add(this.btnToggleDrawer);
             this.pnlDrawer.Controls.Add(this.bunifuFlatButton1);
             this.pnlDrawer.Controls.Add(this.label4);
@@ -214,6 +239,76 @@
             this.pnlDrawer.Name = "pnlDrawer";
             this.pnlDrawer.Size = new System.Drawing.Size(233, 584);
             this.pnlDrawer.TabIndex = 2;
+            // 
+            // bunifuFlatButton6
+            // 
+            this.bunifuFlatButton6.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(18)))));
+            this.bunifuFlatButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
+            this.bunifuFlatButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton6.BorderRadius = 0;
+            this.bunifuFlatButton6.ButtonText = "    Shell On Lazada";
+            this.bunifuFlatButton6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.bunifuFlatButton6, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton6.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton6.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton6.Iconimage = global::Lazada.Properties.Resources.ic_sale;
+            this.bunifuFlatButton6.Iconimage_right = null;
+            this.bunifuFlatButton6.Iconimage_right_Selected = null;
+            this.bunifuFlatButton6.Iconimage_Selected = null;
+            this.bunifuFlatButton6.IconMarginLeft = 0;
+            this.bunifuFlatButton6.IconMarginRight = 0;
+            this.bunifuFlatButton6.IconRightVisible = true;
+            this.bunifuFlatButton6.IconRightZoom = 0D;
+            this.bunifuFlatButton6.IconVisible = true;
+            this.bunifuFlatButton6.IconZoom = 50D;
+            this.bunifuFlatButton6.IsTab = true;
+            this.bunifuFlatButton6.Location = new System.Drawing.Point(0, 500);
+            this.bunifuFlatButton6.Name = "bunifuFlatButton6";
+            this.bunifuFlatButton6.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
+            this.bunifuFlatButton6.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
+            this.bunifuFlatButton6.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
+            this.bunifuFlatButton6.selected = false;
+            this.bunifuFlatButton6.Size = new System.Drawing.Size(240, 55);
+            this.bunifuFlatButton6.TabIndex = 10;
+            this.bunifuFlatButton6.Text = "    Shell On Lazada";
+            this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton6.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            // 
+            // bunifuFlatButton5
+            // 
+            this.bunifuFlatButton5.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(18)))));
+            this.bunifuFlatButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
+            this.bunifuFlatButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton5.BorderRadius = 0;
+            this.bunifuFlatButton5.ButtonText = "    Support";
+            this.bunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuTransition1.SetDecoration(this.bunifuFlatButton5, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuFlatButton5.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton5.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton5.Iconimage = global::Lazada.Properties.Resources.ic_support;
+            this.bunifuFlatButton5.Iconimage_right = null;
+            this.bunifuFlatButton5.Iconimage_right_Selected = null;
+            this.bunifuFlatButton5.Iconimage_Selected = null;
+            this.bunifuFlatButton5.IconMarginLeft = 0;
+            this.bunifuFlatButton5.IconMarginRight = 0;
+            this.bunifuFlatButton5.IconRightVisible = true;
+            this.bunifuFlatButton5.IconRightZoom = 0D;
+            this.bunifuFlatButton5.IconVisible = true;
+            this.bunifuFlatButton5.IconZoom = 50D;
+            this.bunifuFlatButton5.IsTab = true;
+            this.bunifuFlatButton5.Location = new System.Drawing.Point(0, 439);
+            this.bunifuFlatButton5.Name = "bunifuFlatButton5";
+            this.bunifuFlatButton5.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
+            this.bunifuFlatButton5.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
+            this.bunifuFlatButton5.OnHoverTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(219)))), ((int)(((byte)(58)))), ((int)(((byte)(108)))));
+            this.bunifuFlatButton5.selected = false;
+            this.bunifuFlatButton5.Size = new System.Drawing.Size(240, 55);
+            this.bunifuFlatButton5.TabIndex = 9;
+            this.bunifuFlatButton5.Text = "    Support";
+            this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton5.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             // 
             // btnToggleDrawer
             // 
@@ -265,6 +360,7 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
+            this.bunifuFlatButton1.MouseUp += new System.EventHandler(this.BunifuFlatButton1_MouseUp);
             // 
             // bunifuFlatButton3
             // 
@@ -272,12 +368,12 @@
             this.bunifuFlatButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
             this.bunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton3.BorderRadius = 0;
-            this.bunifuFlatButton3.ButtonText = "    Support";
+            this.bunifuFlatButton3.ButtonText = "    My Review";
             this.bunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.bunifuFlatButton3, BunifuAnimatorNS.DecorationType.None);
             this.bunifuFlatButton3.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton3.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton3.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton3.Iconimage")));
+            this.bunifuFlatButton3.Iconimage = global::Lazada.Properties.Resources.ic_review;
             this.bunifuFlatButton3.Iconimage_right = null;
             this.bunifuFlatButton3.Iconimage_right_Selected = null;
             this.bunifuFlatButton3.Iconimage_Selected = null;
@@ -296,7 +392,7 @@
             this.bunifuFlatButton3.selected = false;
             this.bunifuFlatButton3.Size = new System.Drawing.Size(240, 55);
             this.bunifuFlatButton3.TabIndex = 5;
-            this.bunifuFlatButton3.Text = "    Support";
+            this.bunifuFlatButton3.Text = "    My Review";
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
@@ -343,12 +439,12 @@
             this.bunifuFlatButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(36)))));
             this.bunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuFlatButton4.BorderRadius = 0;
-            this.bunifuFlatButton4.ButtonText = "    Dashboard";
+            this.bunifuFlatButton4.ButtonText = "   My Order";
             this.bunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuTransition1.SetDecoration(this.bunifuFlatButton4, BunifuAnimatorNS.DecorationType.None);
             this.bunifuFlatButton4.DisabledColor = System.Drawing.Color.Gray;
             this.bunifuFlatButton4.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton4.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton4.Iconimage")));
+            this.bunifuFlatButton4.Iconimage = global::Lazada.Properties.Resources.ic_order;
             this.bunifuFlatButton4.Iconimage_right = null;
             this.bunifuFlatButton4.Iconimage_right_Selected = null;
             this.bunifuFlatButton4.Iconimage_Selected = null;
@@ -357,7 +453,7 @@
             this.bunifuFlatButton4.IconRightVisible = true;
             this.bunifuFlatButton4.IconRightZoom = 0D;
             this.bunifuFlatButton4.IconVisible = true;
-            this.bunifuFlatButton4.IconZoom = 50D;
+            this.bunifuFlatButton4.IconZoom = 60D;
             this.bunifuFlatButton4.IsTab = true;
             this.bunifuFlatButton4.Location = new System.Drawing.Point(0, 317);
             this.bunifuFlatButton4.Name = "bunifuFlatButton4";
@@ -367,7 +463,7 @@
             this.bunifuFlatButton4.selected = false;
             this.bunifuFlatButton4.Size = new System.Drawing.Size(240, 55);
             this.bunifuFlatButton4.TabIndex = 4;
-            this.bunifuFlatButton4.Text = "    Dashboard";
+            this.bunifuFlatButton4.Text = "   My Order";
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
@@ -392,15 +488,6 @@
             animation1.TimeCoeff = 0F;
             animation1.TransparencyCoeff = 0F;
             this.bunifuTransition1.DefaultAnimation = animation1;
-            // 
-            // tabMessages1
-            // 
-            this.bunifuTransition1.SetDecoration(this.tabMessages1, BunifuAnimatorNS.DecorationType.None);
-            this.tabMessages1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabMessages1.Location = new System.Drawing.Point(0, 0);
-            this.tabMessages1.Name = "tabMessages1";
-            this.tabMessages1.Size = new System.Drawing.Size(705, 526);
-            this.tabMessages1.TabIndex = 0;
             // 
             // frmUser
             // 
@@ -450,5 +537,8 @@
         public Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
         private BunifuAnimatorNS.BunifuTransition bunifuTransition1;
         private tabMessages tabMessages1;
+        private tabProfile tabProfile1;
+        public Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton6;
+        public Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton5;
     }
 }

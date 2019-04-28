@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BunifuDataViz">
+      <HintPath>..\..\..\Downloads\light_ui_dashboard-master\awesome_light_ui_dashbard\bin\Debug\BunifuDataViz.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
       <HintPath>..\..\..\..\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
@@ -57,6 +60,18 @@
     <Compile Include="btnMailItem.Designer.cs">
       <DependentUpon>btnMailItem.cs</DependentUpon>
     </Compile>
+    <Compile Include="ctrl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl1.Designer.cs">
+      <DependentUpon>ctrl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctrl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctrl2.Designer.cs">
+      <DependentUpon>ctrl2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +86,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tabCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tabCategory.Designer.cs">
+      <DependentUpon>tabCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="tabMessage.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,6 +103,12 @@
     </Compile>
     <Compile Include="tabPrivacySetting.Designer.cs">
       <DependentUpon>tabPrivacySetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tabProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tabProduct.Designer.cs">
+      <DependentUpon>tabProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="tabProfile.cs">
       <SubType>UserControl</SubType>
@@ -97,6 +124,12 @@
     </Compile>
     <EmbeddedResource Include="btnMailItem.resx">
       <DependentUpon>btnMailItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrl1.resx">
+      <DependentUpon>ctrl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctrl2.resx">
+      <DependentUpon>ctrl2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -114,11 +147,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="tabCategory.resx">
+      <DependentUpon>tabCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="tabMessage.resx">
       <DependentUpon>tabMessage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tabPrivacySetting.resx">
       <DependentUpon>tabPrivacySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tabProduct.resx">
+      <DependentUpon>tabProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tabProfile.resx">
       <DependentUpon>tabProfile.cs</DependentUpon>
@@ -159,6 +198,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ic_support.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_buy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_login.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

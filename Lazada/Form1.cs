@@ -16,5 +16,22 @@ namespace Lazada
         {
             InitializeComponent();
         }
+
+        private void Tab2_Click(object sender, EventArgs e)
+        {
+            ctrl21.BringToFront();
+            bar.Top = ((Bunifu.Framework.UI.BunifuFlatButton)sender).Top;
+            lblmain.Text = ((Bunifu.Framework.UI.BunifuFlatButton)sender).Text.Trim();
+        }
+
+        private void Tab1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

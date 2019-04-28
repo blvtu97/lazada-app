@@ -63,9 +63,29 @@ namespace Lazada.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_buy {
+            get {
+                object obj = ResourceManager.GetObject("ic_buy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_camera {
             get {
                 object obj = ResourceManager.GetObject("ic_camera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_login {
+            get {
+                object obj = ResourceManager.GetObject("ic_login", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
